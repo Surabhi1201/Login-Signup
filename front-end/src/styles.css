@@ -1,0 +1,50 @@
+body{
+    background-color:powderblue;
+    justify-content: center;
+    display: flex;
+}
+h2{
+    text-align: center;
+}
+.main-div{
+    width:400px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin:auto;
+    position:absolute;
+    top:100px;
+    text-align: center;
+}
+input{
+    width:100%;
+    padding:10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+button{
+    width:100%;
+    background-color: cornflowerblue;
+    color:black;
+    font-size:16px;
+    padding:10px;
+    border-radius: 10px;
+    
+}
+button:hover{
+    background-color: #04AA6D;
+    color: white;
+}
+
+a{
+    box-sizing: border-box;
+    padding: 50px;
+}
+a:hover{
+    color:green;
+}
+.error{
+    color:red;
+    font-weight:bold;
+    font-size: 20px;
+}
